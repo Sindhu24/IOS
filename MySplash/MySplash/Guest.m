@@ -8,7 +8,7 @@
 
 #import "Guest.h"
 #import "ViewController.h"
-@interface Guest ()
+@interface Guest ()<UITextFieldDelegate>
 
 @end
 
@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
+    
+    userNameTxt.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,4 +49,9 @@
         [self performSegueWithIdentifier:@"GotoDetails" sender:nil];
     }
 }
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return YES;
+}
+
 @end
