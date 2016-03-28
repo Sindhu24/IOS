@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0C9D531CA88ED000F305C8 /* Guest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C9D521CA88ED000F305C8 /* Guest.m */; };
+		BE147EF91C949F93006AAF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE147EF81C949F93006AAF51 /* main.m */; };
+		BE147EFC1C949F93006AAF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE147EFB1C949F93006AAF51 /* AppDelegate.m */; };
+		BE147EFF1C949F93006AAF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE147EFE1C949F93006AAF51 /* ViewController.m */; };
+		BE147F021C949F93006AAF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE147F001C949F93006AAF51 /* Main.storyboard */; };
+		BE147F041C949F93006AAF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE147F031C949F93006AAF51 /* Assets.xcassets */; };
+		BE147F071C949F93006AAF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE147F051C949F93006AAF51 /* LaunchScreen.storyboard */; };
+		BE147F121C949F93006AAF51 /* MySplashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE147F111C949F93006AAF51 /* MySplashTests.m */; };
+		BE147F1F1C94A11B006AAF51 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE147F1E1C94A11B006AAF51 /* libsqlite3.tbd */; };
+		BE147F211C94A12A006AAF51 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE147F201C94A12A006AAF51 /* SystemConfiguration.framework */; };
+		BE147F231C94A143006AAF51 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE147F221C94A143006AAF51 /* libz.tbd */; };
+		BE54D22F1CA7C8B500D34934 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE54D22E1CA7C8B500D34934 /* LoginViewController.m */; };
+		DC3E1664253B9AB3B7D07A46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45792A22CB3D56BBAB59673 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE147F0E1C949F93006AAF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE147EEC1C949F93006AAF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE147EF31C949F93006AAF51;
+			remoteInfo = MySplash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BEB535458C8EE989D925FEB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2D0C9D511CA88ED000F305C8 /* Guest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guest.h; sourceTree = "<group>"; };
+		2D0C9D521CA88ED000F305C8 /* Guest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guest.m; sourceTree = "<group>"; };
+		82417BF7BCE0D47592A51BBC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A45792A22CB3D56BBAB59673 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE147EF41C949F93006AAF51 /* MySplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE147EF81C949F93006AAF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE147EFA1C949F93006AAF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE147EFB1C949F93006AAF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE147EFD1C949F93006AAF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE147EFE1C949F93006AAF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE147F011C949F93006AAF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE147F031C949F93006AAF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE147F061C949F93006AAF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE147F081C949F93006AAF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE147F0D1C949F93006AAF51 /* MySplashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySplashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE147F111C949F93006AAF51 /* MySplashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySplashTests.m; sourceTree = "<group>"; };
+		BE147F131C949F93006AAF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE147F1E1C94A11B006AAF51 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BE147F201C94A12A006AAF51 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE147F221C94A143006AAF51 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BE54D22D1CA7C8B500D34934 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BE54D22E1CA7C8B500D34934 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE147EF11C949F93006AAF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE147F231C94A143006AAF51 /* libz.tbd in Frameworks */,
+				BE147F211C94A12A006AAF51 /* SystemConfiguration.framework in Frameworks */,
+				BE147F1F1C94A11B006AAF51 /* libsqlite3.tbd in Frameworks */,
+				DC3E1664253B9AB3B7D07A46 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE147F0A1C949F93006AAF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14032247951FFA2CA3859E51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82417BF7BCE0D47592A51BBC /* Pods.debug.xcconfig */,
+				2BEB535458C8EE989D925FEB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A89FC12CCC06B7D7F0F34C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A45792A22CB3D56BBAB59673 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE147EEB1C949F93006AAF51 = {
+			isa = PBXGroup;
+			children = (
+				BE147F221C94A143006AAF51 /* libz.tbd */,
+				BE147F1E1C94A11B006AAF51 /* libsqlite3.tbd */,
+				BE147F201C94A12A006AAF51 /* SystemConfiguration.framework */,
+				BE147EF61C949F93006AAF51 /* MySplash */,
+				BE147F101C949F93006AAF51 /* MySplashTests */,
+				BE147EF51C949F93006AAF51 /* Products */,
+				14032247951FFA2CA3859E51 /* Pods */,
+				A89FC12CCC06B7D7F0F34C0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE147EF51C949F93006AAF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE147EF41C949F93006AAF51 /* MySplash.app */,
+				BE147F0D1C949F93006AAF51 /* MySplashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE147EF61C949F93006AAF51 /* MySplash */ = {
+			isa = PBXGroup;
+			children = (
+				BE147EFA1C949F93006AAF51 /* AppDelegate.h */,
+				BE147EFB1C949F93006AAF51 /* AppDelegate.m */,
+				BE147EFD1C949F93006AAF51 /* ViewController.h */,
+				BE147EFE1C949F93006AAF51 /* ViewController.m */,
+				BE54D22D1CA7C8B500D34934 /* LoginViewController.h */,
+				BE54D22E1CA7C8B500D34934 /* LoginViewController.m */,
+				2D0C9D511CA88ED000F305C8 /* Guest.h */,
+				2D0C9D521CA88ED000F305C8 /* Guest.m */,
+				BE147F001C949F93006AAF51 /* Main.storyboard */,
+				BE147F031C949F93006AAF51 /* Assets.xcassets */,
+				BE147F051C949F93006AAF51 /* LaunchScreen.storyboard */,
+				BE147F081C949F93006AAF51 /* Info.plist */,
+				BE147EF71C949F93006AAF51 /* Supporting Files */,
+			);
+			path = MySplash;
+			sourceTree = "<group>";
+		};
+		BE147EF71C949F93006AAF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE147EF81C949F93006AAF51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE147F101C949F93006AAF51 /* MySplashTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE147F111C949F93006AAF51 /* MySplashTests.m */,
+				BE147F131C949F93006AAF51 /* Info.plist */,
+			);
+			path = MySplashTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE147EF31C949F93006AAF51 /* MySplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE147F161C949F93006AAF51 /* Build configuration list for PBXNativeTarget "MySplash" */;
+			buildPhases = (
+				0F6AE020709E6335E1A6CE81 /* Check Pods Manifest.lock */,
+				BE147EF01C949F93006AAF51 /* Sources */,
+				BE147EF11C949F93006AAF51 /* Frameworks */,
+				BE147EF21C949F93006AAF51 /* Resources */,
+				370FF8E0CAFFB98561E21DE3 /* Embed Pods Frameworks */,
+				B9D6ADD58CA1D3F067A69F61 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySplash;
+			productName = MySplash;
+			productReference = BE147EF41C949F93006AAF51 /* MySplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE147F0C1C949F93006AAF51 /* MySplashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE147F191C949F93006AAF51 /* Build configuration list for PBXNativeTarget "MySplashTests" */;
+			buildPhases = (
+				BE147F091C949F93006AAF51 /* Sources */,
+				BE147F0A1C949F93006AAF51 /* Frameworks */,
+				BE147F0B1C949F93006AAF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE147F0F1C949F93006AAF51 /* PBXTargetDependency */,
+			);
+			name = MySplashTests;
+			productName = MySplashTests;
+			productReference = BE147F0D1C949F93006AAF51 /* MySplashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE147EEC1C949F93006AAF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Vasikarla;
+				TargetAttributes = {
+					BE147EF31C949F93006AAF51 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L6J3JWZ2Y4;
+					};
+					BE147F0C1C949F93006AAF51 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BE147EF31C949F93006AAF51;
+					};
+				};
+			};
+			buildConfigurationList = BE147EEF1C949F93006AAF51 /* Build configuration list for PBXProject "MySplash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE147EEB1C949F93006AAF51;
+			productRefGroup = BE147EF51C949F93006AAF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE147EF31C949F93006AAF51 /* MySplash */,
+				BE147F0C1C949F93006AAF51 /* MySplashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE147EF21C949F93006AAF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE147F071C949F93006AAF51 /* LaunchScreen.storyboard in Resources */,
+				BE147F041C949F93006AAF51 /* Assets.xcassets in Resources */,
+				BE147F021C949F93006AAF51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE147F0B1C949F93006AAF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F6AE020709E6335E1A6CE81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		370FF8E0CAFFB98561E21DE3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D6ADD58CA1D3F067A69F61 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE147EF01C949F93006AAF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE54D22F1CA7C8B500D34934 /* LoginViewController.m in Sources */,
+				2D0C9D531CA88ED000F305C8 /* Guest.m in Sources */,
+				BE147EFF1C949F93006AAF51 /* ViewController.m in Sources */,
+				BE147EFC1C949F93006AAF51 /* AppDelegate.m in Sources */,
+				BE147EF91C949F93006AAF51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE147F091C949F93006AAF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE147F121C949F93006AAF51 /* MySplashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE147F0F1C949F93006AAF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE147EF31C949F93006AAF51 /* MySplash */;
+			targetProxy = BE147F0E1C949F93006AAF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE147F001C949F93006AAF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE147F011C949F93006AAF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE147F051C949F93006AAF51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE147F061C949F93006AAF51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE147F141C949F93006AAF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE147F151C949F93006AAF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE147F171C949F93006AAF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82417BF7BCE0D47592A51BBC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MySplash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.wms.MySplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BE147F181C949F93006AAF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEB535458C8EE989D925FEB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MySplash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.wms.MySplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BE147F1A1C949F93006AAF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySplashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.wms.MySplashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySplash.app/MySplash";
+			};
+			name = Debug;
+		};
+		BE147F1B1C949F93006AAF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySplashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.wms.MySplashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySplash.app/MySplash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE147EEF1C949F93006AAF51 /* Build configuration list for PBXProject "MySplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE147F141C949F93006AAF51 /* Debug */,
+				BE147F151C949F93006AAF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE147F161C949F93006AAF51 /* Build configuration list for PBXNativeTarget "MySplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE147F171C949F93006AAF51 /* Debug */,
+				BE147F181C949F93006AAF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE147F191C949F93006AAF51 /* Build configuration list for PBXNativeTarget "MySplashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE147F1A1C949F93006AAF51 /* Debug */,
+				BE147F1B1C949F93006AAF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE147EEC1C949F93006AAF51 /* Project object */;
+}
